@@ -8,5 +8,21 @@
         <source>PROJECT</source>
       </metadata>
     </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>redhat-techpreview-all-repository</id>
+        <url>http://maven.repository.redhat.com/techpreview/all/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>C:\Users\Hari\mvnRepo</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
   </repositories>
 </project-repositories>
