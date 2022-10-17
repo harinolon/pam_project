@@ -6,12 +6,24 @@ package com.newspace.overdraftproject;
 
 public class signalModel implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public signalModel() {
-    }
+	@org.kie.api.definition.type.Label(value = "signalName")
+	private java.lang.String signalName;
 
+	public signalModel() {
+	}
 
+	public java.lang.String getSignalName() {
+		return this.signalName;
+	}
 
+	public void setSignalName(java.lang.String signalName) {
+		this.signalName = signalName;
+	}
+
+	public signalModel(java.lang.String signalName) {
+		this.signalName = signalName;
+	}
 
 }
