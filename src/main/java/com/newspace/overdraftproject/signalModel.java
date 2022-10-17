@@ -26,4 +26,7 @@ public class signalModel implements java.io.Serializable {
 		this.signalName = signalName;
 	}
 
+    public String toString(){
+        return "Signal Name " + signalName;
+    }
 }
