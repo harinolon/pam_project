@@ -52,6 +52,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>pam_artifact_manager</id>
+      <url>http://192.168.1.10:8081/repository/pam_artifact_manager/</url>
+    </repository>
+  </distributionManagement>
   <build>
     <plugins>
       <plugin>
