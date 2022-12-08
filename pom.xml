@@ -4,10 +4,16 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.newspace</groupId>
   <artifactId>OverdraftProject</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>kjar</packaging>
   <name>OverdraftProject</name>
   <description>Creating a business process for overdraft amount</description>
+  <distributionManagement>
+    <repository>
+      <id>pam_artifact_manager</id>
+      <url>http://192.168.1.10:8081/repository/pam_artifact_manager/</url>
+    </repository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
@@ -52,12 +58,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-    <repository>
-      <id>pam_artifact_manager</id>
-      <url>http://192.168.1.10:8081/repository/pam_artifact_manager/</url>
-    </repository>
-  </distributionManagement>
   <build>
     <plugins>
       <plugin>
